@@ -1,0 +1,8 @@
+@import 'variables.css';
+@import 'base.css';
+@import 'layouts/navbar.css';
+@import 'layouts/footer.css';
+@import 'layouts/home.css';
+
+/* Components & Layouts will be imported here later */
+@import 'components.css';
