@@ -40,7 +40,7 @@
                 <div class="hero__badge">
                     <span class="badge-dot"></span> Pelindo Jasa Maritim
                 </div>
-                <h1 class="hero__title">SPJM Regional Area <br/><span class="text-gradient">Kalimantan II</span></h1>
+                <h1 class="hero__title">SPJM Regional Area <br/><span class="text-gradient">Kalimantan II Luqman</span></h1>
                 <p class="hero__subtitle">Menghadirkan keunggulan layanan jasa maritim terintegrasi dengan standar global untuk kelancaran logistik di perairan Kalimantan.</p>
                 <div class="hero__actions">
                     <a href="{{ route('services.index') }}" class="btn-premium btn-premium--primary">
