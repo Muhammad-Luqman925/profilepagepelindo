@@ -54,3 +54,9 @@ Route::prefix('profil')->name('profile.')->group(function () {
         return view('pages.profile.structure');
     })->name('structure');
 });
+
+// Route khusus untuk menghubungkan folder storage gambar di cPanel
+Route::get('/linkstorage', function () {
+    \Illuminate\Support\Facades\Artisan::call('storage:link');
+    return 'Storage linked successfully!';
+});
