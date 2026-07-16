@@ -38,6 +38,11 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # Sesuaikan folder tujuan di cPanel, tambahkan garis miring di akhir!
-          # Karena menggunakan akun FTP khusus, arahkan ke root direktori FTP:
           server-dir: /
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            .env.example
+            README.md
