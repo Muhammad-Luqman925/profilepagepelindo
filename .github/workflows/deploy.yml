@@ -39,5 +39,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # Sesuaikan folder tujuan di cPanel, tambahkan garis miring di akhir!
-          # Folder untuk domain pelindo.luqmandev.my.id
-          server-dir: /public_html/pelindo.luqmandev.my.id/
+          # Folder untuk domain luqmandev.my.id
+          server-dir: /public_html/luqmandev.my.id/
